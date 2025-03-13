@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { UiComponentsComponent } from '@menago/ui-components';
 
 @Component({
-  imports: [CommonModule, NxWelcomeComponent],
-  selector: 'app-mainDashboard-entry',
-  template: `<app-nx-welcome></app-nx-welcome>`,
+  imports: [CommonModule, UiComponentsComponent],
+  selector: 'app-main-dashboard-entry',
+  template: `<lib-ui-components></lib-ui-components>`,
 })
 export class RemoteEntryComponent {}
