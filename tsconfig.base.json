@@ -18,6 +18,9 @@
       "@menago/ui-components": ["libs/ui-components/src/index.ts"],
       "mainDashboard/Routes": [
         "apps/feature/mainDashboard/src/app/remote-entry/entry.routes.ts"
+      ],
+      "reports/Routes": [
+        "apps/feature/reports/src/app/remote-entry/entry.routes.ts"
       ]
     }
   },
